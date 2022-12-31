@@ -1,0 +1,28 @@
+table {
+    border-collapse: collapse;
+    width: device-width;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+
+  }
+  tr :hover{
+    width: max-content;
+    font-size: large;
+    font-weight: bold;
+    
+  }
+  
+  tr:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+  
+
+.imm {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: device-width;
+}
